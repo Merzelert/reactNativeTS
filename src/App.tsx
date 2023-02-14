@@ -1,11 +1,13 @@
-import React from 'react'
-import { Usuarios } from './components/Usuarios'
+// import { Usuarios } from './components/Usuarios'
 // import { Login } from './components/Login'
 // import { ContadorConHook } from './components/ContadorConHook'
 // import { Contador } from './components/Contador'
 // import { Funciones } from './typescript/Funciones'
 // import { ObjetosLiterales } from './typescript/ObjetosLiterales'
 // import { TiposBasicos } from './typescript/TiposBasicos';
+// import { UsuariosConHook } from './components/UsuariosConHook'
+
+import { Formularios } from "./components/Formularios"
 
 const App = () => {
     return (
@@ -18,7 +20,9 @@ const App = () => {
             {/* <Contador/> */}
             {/* <ContadorConHook/> */}
             {/* <Login/> */}
-            <Usuarios/>
+            {/* <Usuarios/> */}
+            {/* <UsuariosConHook/> */}
+            <Formularios/>
         </div>
     )
 }
